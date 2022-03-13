@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      수강신청
+    </title>
+  </head>
+  <body>
+    <h1>PITCA 수강신청</h1>
+    <form>
+      <section id="subject">
+        <label for="sub">수강희망과목</label>
+        <input type="text" id="sub" name="subject">
+        <hr>
+      </section>
+      <section id="time">
+        <label for="time">일일수업시간</label>
+        <input type="number" id="time" name="time" min="1" max="8">
+        <hr>
+      </section>
+      <section id="difficulty">
+        <p>희망 수강 난이도는?</p>
+        <label for="difficulty">난이도</label>
+        <input type="range" id="difficulty" name="difficulty" min="0" max="10" step="1">
+        <hr>
+      </section>
+      <section id="interest">
+        <p>관심 과목을 선택하세요</p>
+        <label for="coding">코딩</label>
+        <input type="checkbox" id="coding" name="interest" value="coding">
+        <label for="cg">그래픽</label>
+        <input type="checkbox" id="cg" name="interest" value="cg">
+        <label for="arduino">아두이노</label>
+        <input type="checkbox" id="arduino" name="interest" value="arduino">
+        <hr>
+      </section>
+    </form>
+  </body>
+</html>
