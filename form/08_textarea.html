@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>컴퓨터 선택</title>
+  </head>
+  <body>
+    <form>
+      <label for="order">컴퓨터 사용 목적</label>
+      <input type="text" id="order" list="items" name="order">
+      <datalist id="items">
+        <option value="사무용"></option>
+        <option value="게임용"></option>
+        <option value="학습용"></option>
+        <option value="그 외"></option>
+      </datalist>
+      <label for="etc">요청사항</label>
+      <br>
+      <textarea id="etc" name="etc" rows="5" cols="30"></textarea>
+      <br>
+      <input type="submit" value="확인">
+    </form>
+
+  </body>
+</html>
