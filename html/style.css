@@ -1,0 +1,22 @@
+h1 {
+  color: #fedcba; background-color: skyblue;
+}
+h2{color: deepskyblue;}
+h3{color: mediumspringgreen;}
+div{
+  background-color:antiquewhite;
+  padding: 20px;
+  margin: 20px;
+  border: solid blueviolet;
+  width: 600px;
+  border-radius: 20px;
+}
+#types{
+  background-color: lightcyan;
+  border: 3mm ridge rgb(255,0,0);
+}
+#history{
+  background-color:  rgb(111, 41, 204);
+  color: bisque;
+  border: dashed rgb(255, 255, 255);
+}

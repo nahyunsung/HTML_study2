@@ -1,0 +1,33 @@
+h1{
+  background-color: black;
+  color: white;
+}
+h2{
+  border: solid green;
+  color: skyblue;
+}
+div{
+  border: 2mm solid yellow;
+  background-color: aquamarine;
+  padding: 40px;
+  margin: 20px;
+
+}
+ol, ul{
+  color: darksalmon;
+  background-color: lemonchiffon;
+}
+p {
+  border: dashed orange;
+  background-color: palegreen;
+}
+video{
+  width: 400px;
+  height: 400px;
+  border: solid skyblue;
+}
+
+a{text-decoration: none;}
+a:link {color: blue;}
+a:visited{color: blue;}
+a:hover {column-rule: yellow; text-decoration: underline;}
